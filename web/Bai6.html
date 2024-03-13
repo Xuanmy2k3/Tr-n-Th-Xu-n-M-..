@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Đăng Nhập</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: ;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("https://www.ppt-backgrounds.net/uploads/plain-purple-photo-downloads.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-form {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 16px;
+    color: #777;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+.remember-me {
+    margin-bottom: 10px;
+}
+
+.remember-me input {
+    margin-right: 5px;
+}
+
+.remember-me label {
+    font-size: 14px;
+    color: #777;
+}
+
+.button-group {
+    text-align: center;
+}
+
+.button-group button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button-group a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="login-form">
+            <div class="header">
+                <h1>Đăng Nhập</h1>
+                <p>Đăng nhập bằng tên người dùng và mật khẩu của bạn</p>
+            </div>
+            <form action="#">
+                <div class="input-group">
+                    <label for="username">Tên người dùng</label>
+                    <input type="text" id="username" name="username" placeholder="Nhập tên người dùng">
+                    <i class="fa fa-user"></i>
+                </div>
+                <div class="input-group">
+                    <label for="password">Mật khẩu</label>
+                    <input type="password" id="password" name="password" placeholder="Nhập mật khẩu">
+                    <i class="fa fa-lock"></i>
+                </div>
+                <div class="remember-me">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Ghi nhớ mật khẩu</label>
+                </div>
+                <div class="button-group">
+                    <button type="submit">Đăng Nhập</button>
+                    <br>
+                    <br>
+                    <a href="#">Quên mật khẩu?</a>
+                    <a href="#">Đăng Ký</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
